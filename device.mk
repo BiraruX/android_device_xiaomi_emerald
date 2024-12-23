@@ -6,6 +6,7 @@
 #
 
 LOCAL_PATH := device/xiaomi/emerald
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -21,7 +22,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.mt6789
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+#PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.mt6789 \
     libgptutils \
     libz \

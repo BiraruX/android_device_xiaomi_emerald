@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_emerald.mk
+    $(LOCAL_DIR)/twrp_emerald.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_emerald-user \
-    omni_emerald-userdebug \
-    omni_emerald-eng
+    twrp_emerald-user \
+    twrp_emerald-userdebug \
+    twrp_emerald-eng

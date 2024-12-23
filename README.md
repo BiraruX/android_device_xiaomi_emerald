@@ -1,4 +1,5 @@
 # Android device tree for Redmi emerald (emerald)
+# Made for Minimal TWRP
 
 ```
 #
