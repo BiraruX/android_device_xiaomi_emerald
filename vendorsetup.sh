@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo twrp_emerald-user
-add_lunch_combo twrp_emerald-userdebug
-add_lunch_combo twrp_emerald-eng
+DEVICE="emerald"
+
+lunch twrp_$DEVICE-user
+lunch twrp_$DEVICE-userdebug
+lunch twrp_$DEVICE-eng
