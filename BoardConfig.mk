@@ -111,7 +111,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 BOARD_SUPER_PARTITION_SIZE := 9126805504
 BOARD_SUPER_PARTITION_GROUPS := xiaomi_dynamic_partitions
 BOARD_XIAOMI_DYNAMIC_PARTITIONS_PARTITION_LIST := \
-    system system_ext vendor product mi_ext \
+    system system_ext vendor product \
     vendor_dlkm odm_dlkm
 BOARD_XIAOMI_DYNAMIC_PARTITIONS_SIZE := 9122611200
 BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 67108864
